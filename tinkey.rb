@@ -2,11 +2,11 @@ class Tinkey < Formula
   desc "A command line tool to generate and manipulate keysets for the Tink cryptography library"
   homepage "https://github.com/google/tink/tree/master/tools/tinkey"
   url "https://storage.googleapis.com/tinkey/tinkey-darwin-x86_64-1.4.0.tar.gz"
-  sha256 "3da539f6b51b95f7856ff84624d3771809709bf5019d3921343152c1ef7b0eb2"
+  sha256 "b6197338e2e59bdbf5ebeda440b8bf10e67c04634841053011a5ae4a40143591"
 
   on_linux do
     url "https://storage.googleapis.com/tinkey/tinkey-linux-x86_64-1.4.0.tar.gz"
-    sha256 "93faf7c672fac45f210c5bdfe62839f7b8062d330e3326cfcd761c90a24a4939"
+    sha256 "4ae6156d214e947d753b927ee7406fdc3ddfaabdbccc1e23f6f818f83882579f"
   end
 
   bottle :unneeded
